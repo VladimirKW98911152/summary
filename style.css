@@ -1,0 +1,53 @@
+.body {
+	display: grid;
+	grid-template: repeat(auto-fit, minmax(210px, 1fr));
+	background-color: darkgreen;
+	color: ghostwhite;
+	border: 15px px dashed black;
+}
+
+.zagolovok {
+	margin: 30px;
+	text-align: left;
+	padding: 30px;
+}
+
+.img {
+	border-radius: 10px;
+	width: 200px
+}
+
+.img1 {
+	text-align: center;
+	padding: 10px 30px;
+	width: 60px
+}
+
+
+.containt {
+    text-align: center;
+}
+
+.containt1 {
+	text-align: justify;
+	margin: 30px;
+	font-size: 20px;
+	text-indent: 50px;
+}
+
+.containt2 {
+	text-align: justify;
+	margin: 30px;
+	font-size: 20px;
+	text-indent: 50px;
+}
+
+.containt3 {
+	grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+ul {
+	padding-left: 30px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
